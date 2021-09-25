@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using NM.Models;
 
 namespace NM.Data
 {
@@ -12,5 +13,6 @@ namespace NM.Data
             : base(options)
         {
         }
+        public DbSet<NM.Models.Trivia> Trivia { get; set; }
     }
 }
