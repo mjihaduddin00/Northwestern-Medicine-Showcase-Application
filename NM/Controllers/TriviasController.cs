@@ -31,6 +31,12 @@ namespace NM.Controllers
             return View();
         }
 
+        // POST: Trivias/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index", await _context.Trivia.Where( j => j.TriviaQuestion.Contains(SearchPhrase)).ToListAsync());
+        }
+
         // GET: Trivias/Details/5
         public async Task<IActionResult> Details(int? id)
         {
