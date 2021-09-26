@@ -25,6 +25,12 @@ namespace NM.Controllers
             return View(await _context.Trivia.ToListAsync());
         }
 
+        // GET: Trivias/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
         // GET: Trivias/Details/5
         public async Task<IActionResult> Details(int? id)
         {

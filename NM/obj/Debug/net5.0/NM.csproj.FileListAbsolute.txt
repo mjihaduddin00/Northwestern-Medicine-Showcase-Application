@@ -162,3 +162,4 @@ C:\Users\mjiha\Desktop\Northwestern-Medicine-Showcase-Application\NM\obj\Debug\n
 C:\Users\mjiha\Desktop\Northwestern-Medicine-Showcase-Application\NM\obj\Debug\net5.0\Razor\Views\Trivias\Details.cshtml.g.cs
 C:\Users\mjiha\Desktop\Northwestern-Medicine-Showcase-Application\NM\obj\Debug\net5.0\Razor\Views\Trivias\Edit.cshtml.g.cs
 C:\Users\mjiha\Desktop\Northwestern-Medicine-Showcase-Application\NM\obj\Debug\net5.0\Razor\Views\Trivias\Index.cshtml.g.cs
+C:\Users\mjiha\Desktop\Northwestern-Medicine-Showcase-Application\NM\obj\Debug\net5.0\Razor\Views\Trivias\ShowSearchForm.cshtml.g.cs
